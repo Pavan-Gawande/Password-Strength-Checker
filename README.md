@@ -1,6 +1,6 @@
 # Password-Strength-Checker
 
-This is a simple and effective Password Strength Checker with a web interface built using Flask. It allows users to input a password, analyze its strength, estimate the time it would take to crack, and display the result in a clean, visually appealing interface.
+This is a simple and effective Password Strength Checker with a web interface built using Flask. It allows users to input a password, analyze its strength, estimate the time it would take to crack and display the result in a clean, visually appealing interface.
 
 When a user enters a password and clicks "Check," the password is sent to the backend where the PasswordChecker class:
 
@@ -8,7 +8,7 @@ When a user enters a password and clicks "Check," the password is sent to the ba
 
  • Calculates its position among all possible combinations
 
- • Estimates crack time by dividing the position by 1 billion guesses per second and converting the result into hours, days, and years
+ • Estimates crack time by using mathematical calculations and converting the result into hours, days, and years accordingly
 
  • Displays the result on the webpage
 
